@@ -1,0 +1,13 @@
+{% extends "_layouts/_site" %}
+
+{% block content %}
+    <main role="main">
+      <div class="container-fluid">
+        <div class="row">
+                {% include '_includes/_sidebar' %}
+                {% include '_includes/_blogDetail' %}
+                {% include '_includes/_map' %}
+            </div>
+        </div>
+    </main>
+{% endblock %}

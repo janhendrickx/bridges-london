@@ -1,5 +1,5 @@
 fieldLayouts:
-  726c2c60-f456-4635-9527-269235ad410e:
+  7fb44bb1-e877-4c1b-b512-b8bbabd7453f:
     tabs:
       -
         elements:
@@ -26,31 +26,13 @@ fieldLayouts:
             type: craft\fieldlayoutelements\EntryTitleField
             warning: null
             width: 100
-          -
-            fieldUid: 62b73e85-31c6-4f52-9e2d-6e51346635c8 # Text
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: b1bce9d8-c6b8-4691-be32-25a27155fc95 # Image
-            instructions: ''
-            label: ''
-            required: '1'
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-        name: Inhoud
+        name: Content
         sortOrder: 1
-handle: post
-hasTitleField: true
-name: Post
-section: 632d0ff3-b0b7-4c00-a6b9-40298b4281ca # Blog
+handle: blogpage
+hasTitleField: false
+name: Blogpage
+section: fe526f6f-9439-461c-8749-aa5bec4aefaf # Blogpage
 sortOrder: 1
-titleFormat: null
+titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

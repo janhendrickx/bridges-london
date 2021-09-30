@@ -1,12 +1,12 @@
 defaultPlacement: end
 enableVersioning: true
-handle: blog
-name: Blog
+handle: blogpage
+name: Blogpage
 propagationMethod: all
 siteSettings:
   9626d010-a6cf-412c-9288-e128e7167564: # Bridges London
     enabledByDefault: true
     hasUrls: true
-    template: blogPage
-    uriFormat: 'blog/{slug}'
-type: channel
+    template: blogpage
+    uriFormat: blogpage
+type: single

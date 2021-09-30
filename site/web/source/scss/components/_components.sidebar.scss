@@ -1,0 +1,24 @@
+.c-sidebar-content_item {
+    background-image: url("../../source/img/chevron-right.svg");
+    background-size: 30px;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.c-sidebar-content_image {
+    background-size: cover;
+}
+
+.c-sidebar-content_text {
+    padding-right: 40px;
+    p {
+        text-align: justify;
+    }
+}
+
+.c-sidebar-content_border {
+    background-color: $white;
+    width: 80%;
+    height: 1px;
+    margin: 0 auto;
+}

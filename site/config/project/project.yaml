@@ -1,4 +1,4 @@
-dateModified: 1633004550
+dateModified: 1633027291
 email:
   fromEmail: admin@janhendrickx.be
   fromName: 'Bridges London'
@@ -21,9 +21,11 @@ meta:
     53be19a3-0972-40d4-8f64-2c6cd5b139f5: Content # Content
     54f8f573-5cd2-4c63-9a98-473878c2f99d: Text # Text
     61b16cde-aea5-4b40-9fd4-4fe6b9227da1: Location # Location
+    62b73e85-31c6-4f52-9e2d-6e51346635c8: Text # Text
     62d1cb7e-7a46-4570-8f7c-0c132f9afa7a: 'Bridges London' # Bridges London
     67e08fad-b132-4713-a365-c9f06f79b5f1: 'Left bank' # Left bank
     69e82117-3d5a-4d08-be80-5e5f184f2c00: Information # Information
+    84a517dc-fcd6-46cf-8826-4bacac438bfc: Blogpage # Blogpage
     86e531bf-3ea9-4370-9ae0-989db778da84: Content # Content
     155a65b4-98e1-4ebd-891f-a9465213eeb5: 'Title with text and an image' # Title with text and an image
     227a858d-ee9a-4dc7-8f03-1d8bbfbc5d93: 'Extra information' # Extra information
@@ -31,6 +33,7 @@ meta:
     739bd0da-7752-4219-b992-504932cac84f: 'Left Bank' # Left Bank
     0861f78b-404f-4c73-8010-72eaa0a0469b: Text # Text
     1225c3a8-e41b-41be-b1bb-63fa42728169: 'Right Bank' # Right Bank
+    3589c02c-6960-4e7e-a3bd-30eac2c636e0: Images # Images
     4094d26c-396e-452f-9498-622ad7e06e41: 'General Information' # General Information
     5064ed44-7edf-49fc-8343-20b7129d01ab: Connection # Connection
     5941ab67-80c1-4238-b397-6576f01e70bd: Post # Post
@@ -46,6 +49,7 @@ meta:
     ab18b013-5a45-421a-bab7-a5db29359b3e: Lifts # Lifts
     ab210e0b-87ac-4384-8bc8-2a8c9bd6381e: Title # Title
     ad9904d9-6786-43d0-bbf1-493fac1fabd3: 'General Information' # General Information
+    b1bce9d8-c6b8-4691-be32-25a27155fc95: Image # Image
     b81e3b8c-ffb9-4d6a-bfde-c52123bbe14b: 'Extra information' # Extra information
     b9127b45-e516-41bc-9b6d-c7b21b07e1c3: 'Additional information' # Additional information
     bfbb0b27-7ead-4e52-801a-c2f3ec0775ba: 'Right Bank' # Right Bank
@@ -63,6 +67,7 @@ meta:
     f9f18bdf-ad03-4e5b-92b2-04d5f7732fa9: Options # Options
     f17e1f13-ef9e-49f5-a020-4ee7542badf0: 'Left bank' # Left bank
     f5708777-6532-46cb-9fae-d086f907b2f1: 'Right Bank' # Right Bank
+    fe526f6f-9439-461c-8749-aa5bec4aefaf: Blogpage # Blogpage
 plugins:
   cookies:
     edition: standard

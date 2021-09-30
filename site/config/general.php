@@ -34,4 +34,22 @@ return [
 
     // Whether crawlers should be allowed to index pages and following links
     'disallowRobots' => !$isProd,
+
+    'aliases' => [
+        '@basePath' => '/Users/jan/Sites/bridges-london/site/web/assets/',
+        '@baseUrl' => 'https://bridges-london.dev/',
+    ],
+
+
+// Dev environment settings
+'dev' => [
+    // Dev Mode (see https://craftcms.com/guides/what-dev-mode-does)
+    'siteUrl' => 'http://'.$_SERVER['HTTP_HOST'],
+    'devMode' => true,
+    'aliases' => [
+        '@basePath' => '/Users/jan/Sites/bridges-london/site/web/assets/',
+        '@baseUrl' => 'https://bridges-london.dev/',
+    ],
+],
+
 ];

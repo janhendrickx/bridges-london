@@ -1,0 +1,18 @@
+{% set items = craft.entries.section('blog').limit('4') %}
+
+<div class="c-sidebar col-12 col-lg-4">
+    <div class="c-sidebar-content">
+        {% for item in items %}
+        {% set img = item.image.one() %}
+            <a href={{ item.url }} alt={{ item.title }} target="_self" class="c-sidebar-content_item row mb-4">
+                <div class="c-sidebar-content_image col-4" style="background-image: url('{% if img %}{{ img.url }}{% endif %}')"></div>
+                <div class="c-sidebar-content_text col-8">
+                    <h3 class="c-sidebar-content_title text-primary mb-1">{{ item.title }}</h1>
+                    <p class="mb-2">{{ item.postDate|date("D d/m/Y - H:i") }}</p>
+                    <p class="mb-0">{{ item.text | striptags | length > 95 ? item.text | striptags | slice(0, 95) ~ '...' : item.text  }}</p>
+                </div>
+                <div class="c-sidebar-content_border mt-4"></div>
+            </a>
+        {% endfor %}
+    </div>
+</div>
