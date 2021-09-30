@@ -1,0 +1,20 @@
+// override custom Bootstrap settings
+@import 'settings/bootstrap.scss';
+
+// fonts
+@import 'settings/fonts.scss';
+
+// import bootstrap
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+
+// custom
+@import 'components/components.header';
+@import 'components/components.home';
+
+
+
+
+
+
+

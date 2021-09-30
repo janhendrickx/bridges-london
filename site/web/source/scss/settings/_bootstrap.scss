@@ -1,0 +1,38 @@
+// Font Colors
+$primary: #60E8FF;
+$primary-darker: darken($primary, 10%);
+$secondary: #fff;
+$dark: #2C3035;
+$light: #f7f7f7;
+$text: $light;
+
+// body background color
+$body-bg: $dark;
+
+// link decoration
+$link-hover-decoration: none;
+
+// Font settings
+$font-family-base: 'Flanders Art Serif', serif;
+$font-size-base: 14;
+$line-height-base: 1.75;
+
+
+$headings-font-family: 'Flanders Art Sans', sans-serif;
+$headings-font-weight: bold;
+$headings-line-height: .95;
+
+$font-size-h1: 30px;
+$font-size-h2: 20px;
+
+a {
+  transition: .3s ease all;
+
+  &.text-dark:hover{
+    color: white;
+  }
+
+  &:hover {
+    transition: .3s ease all;
+  }
+}

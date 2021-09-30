@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "Craft CMS Bootstrap sass install",
+  "main": "index.js",
+  "author": "Captain Internet",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "bootstrap": "^4.4.1",
+    "cssnano": "^4.1.10",
+    "lodash": "^4.17.21",
+    "node-sass": "^6.0.1",
+    "postcss-cli": "^7.1.1",
+    "watch": "^0.13.0"
+  },
+  "scripts": {
+    "watch-sass": "node-sass -rw site/web/source/scss/*.scss -o site/web/build/css",
+    "autoprefixer": "postcss site/web/build/css/main.css -u autoprefixer cssnano -o site/web/build/css/main.min.css",
+    "build": "node-sass site/web/source/scss/main.scss site/web/build/css/main.css --use autoprefixer -b site/web/build/css/main.css && yarn prefix-css && yarn minify-css",
+    "watch": "yarn watch-sass"
+  }
+}
