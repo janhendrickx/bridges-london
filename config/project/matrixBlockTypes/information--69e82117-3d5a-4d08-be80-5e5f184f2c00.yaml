@@ -1,0 +1,89 @@
+field: 8fb03fb1-183a-4b68-9573-f7693efba43c # Escalators
+fieldLayouts:
+  63f7017c-919e-4598-bc12-7da275b362e6:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 5e682297-3369-4a6b-9037-db55250e2d10 # Left bank
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 18748439-580f-4779-be1c-3ea413f977e5 # Right bank
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 6bccb4b8-29ac-458e-97d6-466b734401d4 # Additional Information
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  5e682297-3369-4a6b-9037-db55250e2d10: # Left bank
+    columnSuffix: null
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: leftBank
+    instructions: ''
+    name: 'Left bank'
+    searchable: false
+    settings:
+      default: true
+      offLabel: Inactive
+      onLabel: Active
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  6bccb4b8-29ac-458e-97d6-466b734401d4: # Additional Information
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: additionalInformation
+    instructions: ''
+    name: 'Additional Information'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '2'
+      multiline: '1'
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  18748439-580f-4779-be1c-3ea413f977e5: # Right bank
+    columnSuffix: null
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: rightBank
+    instructions: ''
+    name: 'Right bank'
+    searchable: false
+    settings:
+      default: true
+      offLabel: Inactive
+      onLabel: Active
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+handle: information
+name: Information
+sortOrder: 1

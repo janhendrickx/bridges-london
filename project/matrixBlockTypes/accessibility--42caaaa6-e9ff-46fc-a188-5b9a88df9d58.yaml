@@ -1,0 +1,90 @@
+field: cec82e84-d9ef-4d77-b565-518cceef6bf2 # Services
+fieldLayouts:
+  ceb4d6d8-8579-4392-8b89-fdaa55a87f64:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f9f18bdf-ad03-4e5b-92b2-04d5f7732fa9 # Options
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  f9f18bdf-ad03-4e5b-92b2-04d5f7732fa9: # Options
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: options
+    instructions: ''
+    name: Options
+    searchable: false
+    settings:
+      multi: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'On foot'
+            -
+              - value
+              - foot
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'By wheelchair'
+            -
+              - value
+              - wheelchair
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'By bike'
+            -
+              - value
+              - bike
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'By cargo bike'
+            -
+              - value
+              - cargobike
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'By moped'
+            -
+              - value
+              - moped
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Checkboxes
+handle: accessibility
+name: Accessibility
+sortOrder: 4

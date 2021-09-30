@@ -1,0 +1,191 @@
+field: cec82e84-d9ef-4d77-b565-518cceef6bf2 # Services
+fieldLayouts:
+  057103e8-eda3-4739-8db8-908f369b5533:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 8fb03fb1-183a-4b68-9573-f7693efba43c # Escalators
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a33bef85-1ee8-42a8-9813-b5e5970e49b4 # Lifts
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e2623858-1474-4e36-84f3-3be77a357922 # Ferries
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 4094d26c-396e-452f-9498-622ad7e06e41 # General Information
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 30db0c1d-4bf5-4a82-8885-c8001a9d6f83 # Accessibiltiy
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  8fb03fb1-183a-4b68-9573-f7693efba43c: # Escalators
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: escalators
+    instructions: ''
+    name: Escalators
+    searchable: false
+    settings:
+      contentTable: '{{%matrixcontent_escalators}}'
+      maxBlocks: '1'
+      minBlocks: '0'
+      propagationKeyFormat: null
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix
+  30db0c1d-4bf5-4a82-8885-c8001a9d6f83: # Accessibiltiy
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: accessibiltiy
+    instructions: ''
+    name: Accessibiltiy
+    searchable: false
+    settings:
+      multi: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'On foot'
+            -
+              - value
+              - foot
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'By wheelchair'
+            -
+              - value
+              - wheelchair
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'By bike'
+            -
+              - value
+              - bike
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'By cargo bike'
+            -
+              - value
+              - cargoBike
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'By moped'
+            -
+              - value
+              - moped
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Checkboxes
+  4094d26c-396e-452f-9498-622ad7e06e41: # General Information
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: generalInformation
+    instructions: ''
+    name: 'General Information'
+    searchable: false
+    settings:
+      contentTable: '{{%matrixcontent_generalinformation}}'
+      maxBlocks: '1'
+      minBlocks: '0'
+      propagationKeyFormat: null
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix
+  a33bef85-1ee8-42a8-9813-b5e5970e49b4: # Lifts
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: lifts
+    instructions: ''
+    name: Lifts
+    searchable: false
+    settings:
+      contentTable: '{{%matrixcontent_lifts}}'
+      maxBlocks: '1'
+      minBlocks: '0'
+      propagationKeyFormat: null
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix
+  e2623858-1474-4e36-84f3-3be77a357922: # Ferries
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: ferries
+    instructions: ''
+    name: Ferries
+    searchable: false
+    settings:
+      contentTable: '{{%matrixcontent_ferries}}'
+      maxBlocks: '1'
+      minBlocks: '0'
+      propagationKeyFormat: null
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix

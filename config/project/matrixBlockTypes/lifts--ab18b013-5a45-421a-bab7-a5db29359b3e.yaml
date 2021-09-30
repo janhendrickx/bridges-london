@@ -1,0 +1,89 @@
+field: cec82e84-d9ef-4d77-b565-518cceef6bf2 # Services
+fieldLayouts:
+  9cfbeed6-2813-4a09-879b-b43b0dd7ab7f:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f17e1f13-ef9e-49f5-a020-4ee7542badf0 # Left bank
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: 7ee28435-133a-4859-83d8-7061ceb8b6f5 # Right Bank
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: b81e3b8c-ffb9-4d6a-bfde-c52123bbe14b # Extra information
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  7ee28435-133a-4859-83d8-7061ceb8b6f5: # Right Bank
+    columnSuffix: null
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: rightBank
+    instructions: ''
+    name: 'Right Bank'
+    searchable: false
+    settings:
+      default: false
+      offLabel: Inactive
+      onLabel: Active
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  b81e3b8c-ffb9-4d6a-bfde-c52123bbe14b: # Extra information
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: extraInfo
+    instructions: ''
+    name: 'Extra information'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f17e1f13-ef9e-49f5-a020-4ee7542badf0: # Left bank
+    columnSuffix: null
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: leftBank
+    instructions: ''
+    name: 'Left bank'
+    searchable: false
+    settings:
+      default: false
+      offLabel: Inactive
+      onLabel: Active
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+handle: lifts
+name: Lifts
+sortOrder: 1

@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: nl
+name: 'Bridges London'
+primary: true
+siteGroup: 62d1cb7e-7a46-4570-8f7c-0c132f9afa7a # Bridges London
+sortOrder: 1

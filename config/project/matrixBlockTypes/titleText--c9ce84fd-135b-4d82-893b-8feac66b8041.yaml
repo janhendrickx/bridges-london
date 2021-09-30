@@ -1,0 +1,79 @@
+field: 86e531bf-3ea9-4370-9ae0-989db778da84 # Content
+fieldLayouts:
+  a880f7d1-39ac-442f-bab4-35c268460889:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f1d100da-518c-4bee-ab4c-adfc1004b5cb # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0861f78b-404f-4c73-8010-72eaa0a0469b # Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  0861f78b-404f-4c73-8010-72eaa0a0469b: # Text
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: ''
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: Simple.json
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  f1d100da-518c-4bee-ab4c-adfc1004b5cb: # Title
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: contentTitle
+    instructions: ''
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: titleText
+name: 'Title with text'
+sortOrder: 1

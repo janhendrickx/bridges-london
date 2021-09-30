@@ -1,0 +1,56 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: a7f51468-9266-4f24-890f-1992c5685c35 # Common
+handle: services
+instructions: ''
+name: Services
+searchable: false
+settings:
+  columns:
+    __assoc__:
+      -
+        - 8fb03fb1-183a-4b68-9573-f7693efba43c # Escalators
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - a33bef85-1ee8-42a8-9813-b5e5970e49b4 # Lifts
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - e2623858-1474-4e36-84f3-3be77a357922 # Ferries
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 4094d26c-396e-452f-9498-622ad7e06e41 # General Information
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 30db0c1d-4bf5-4a82-8885-c8001a9d6f83 # Accessibiltiy
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_services}}'
+  fieldLayout: row
+  maxRows: ''
+  minRows: ''
+  placeholderKey: null
+  propagationMethod: all
+  selectionLabel: ''
+  staticField: '1'
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: connection
+name: Connection
+propagationMethod: all
+siteSettings:
+  9626d010-a6cf-412c-9288-e128e7167564: # Bridges London
+    enabledByDefault: true
+    hasUrls: true
+    template: connection/_entry
+    uriFormat: 'connection/{slug}'
+structure:
+  maxLevels: 1
+  uid: c633845c-2d5c-4ba5-b2a9-74cd949a4ea1
+type: structure

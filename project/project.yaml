@@ -1,0 +1,121 @@
+dateModified: 1632941541
+email:
+  fromEmail: admin@janhendrickx.be
+  fromName: 'Bridges London'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    2db9fcc8-3fd2-4c92-a924-ee8498f6d5e9: Ferry # Ferry
+    4cf9ded3-3874-43f3-bd7c-4de43ff1a737: 'Extra information' # Extra information
+    5e682297-3369-4a6b-9037-db55250e2d10: 'Left bank' # Left bank
+    6bccb4b8-29ac-458e-97d6-466b734401d4: 'Additional Information' # Additional Information
+    06cdc21d-8242-41b3-b1ad-e7fb4756ad9f: Text # Text
+    7cd64c9e-8263-4137-9073-89a7ced9cec7: 'Left Bank' # Left Bank
+    7ee28435-133a-4859-83d8-7061ceb8b6f5: 'Right Bank' # Right Bank
+    8fb03fb1-183a-4b68-9573-f7693efba43c: Escalators # Escalators
+    9d4fdc15-3f73-4fa9-9e17-14ad4a2dee84: 'Additional Information' # Additional Information
+    9de32611-8a05-4afa-96a4-03600ed5fd21: Escalators # Escalators
+    30db0c1d-4bf5-4a82-8885-c8001a9d6f83: Accessibiltiy # Accessibiltiy
+    33c23a52-9f09-4bc9-9eb2-ce377b5f0f2b: 'Left Bank' # Left Bank
+    42caaaa6-e9ff-46fc-a188-5b9a88df9d58: Accessibility # Accessibility
+    53be19a3-0972-40d4-8f64-2c6cd5b139f5: Content # Content
+    54f8f573-5cd2-4c63-9a98-473878c2f99d: Text # Text
+    61b16cde-aea5-4b40-9fd4-4fe6b9227da1: Location # Location
+    62d1cb7e-7a46-4570-8f7c-0c132f9afa7a: 'Bridges London' # Bridges London
+    67e08fad-b132-4713-a365-c9f06f79b5f1: 'Left bank' # Left bank
+    69e82117-3d5a-4d08-be80-5e5f184f2c00: Information # Information
+    86e531bf-3ea9-4370-9ae0-989db778da84: Content # Content
+    155a65b4-98e1-4ebd-891f-a9465213eeb5: 'Title with text and an image' # Title with text and an image
+    227a858d-ee9a-4dc7-8f03-1d8bbfbc5d93: 'Extra information' # Extra information
+    632d0ff3-b0b7-4c00-a6b9-40298b4281ca: Blog # Blog
+    739bd0da-7752-4219-b992-504932cac84f: 'Left Bank' # Left Bank
+    0861f78b-404f-4c73-8010-72eaa0a0469b: Text # Text
+    1225c3a8-e41b-41be-b1bb-63fa42728169: 'Right Bank' # Right Bank
+    4094d26c-396e-452f-9498-622ad7e06e41: 'General Information' # General Information
+    5064ed44-7edf-49fc-8343-20b7129d01ab: Connection # Connection
+    5941ab67-80c1-4238-b397-6576f01e70bd: Post # Post
+    9626d010-a6cf-412c-9288-e128e7167564: 'Bridges London' # Bridges London
+    573568d2-30b6-4b66-bf18-5c26487a90ce: Information # Information
+    612179a4-61a7-431d-ba6e-41413c43ca54: Content # Content
+    891273c2-3696-4fa0-847f-9eb168a7fcbe: Information # Information
+    6777391e-bc08-4840-9cc4-c1b87ed36a94: 'Additional Information' # Additional Information
+    18748439-580f-4779-be1c-3ea413f977e5: 'Right bank' # Right bank
+    80973392-7701-4ef4-8cea-1a03aeecbbff: Text # Text
+    a7f51468-9266-4f24-890f-1992c5685c35: Common # Common
+    a33bef85-1ee8-42a8-9813-b5e5970e49b4: Lifts # Lifts
+    ab18b013-5a45-421a-bab7-a5db29359b3e: Lifts # Lifts
+    ab210e0b-87ac-4384-8bc8-2a8c9bd6381e: Title # Title
+    ad9904d9-6786-43d0-bbf1-493fac1fabd3: 'General Information' # General Information
+    b81e3b8c-ffb9-4d6a-bfde-c52123bbe14b: 'Extra information' # Extra information
+    b9127b45-e516-41bc-9b6d-c7b21b07e1c3: 'Additional information' # Additional information
+    bfbb0b27-7ead-4e52-801a-c2f3ec0775ba: 'Right Bank' # Right Bank
+    c9ce84fd-135b-4d82-893b-8feac66b8041: 'Title with text' # Title with text
+    c225311f-b6e1-47f9-be41-13d28dd6aa1e: Text # Text
+    cec82e84-d9ef-4d77-b565-518cceef6bf2: Services # Services
+    d3bcd647-3042-4dcf-b682-d0fcbe2c32e4: Image # Image
+    d5a37329-a32e-4ca9-b66e-be85855755b0: Text # Text
+    d9f24cec-d58c-4162-9a06-b0eb6d3196bc: 'Right bank' # Right bank
+    dbff6bce-61fa-4ef1-bab8-3bd6bf8360dd: 'Additional Information' # Additional Information
+    e27701cd-9def-44b5-8fb6-5b6bea29fd7c: Title # Title
+    e2623858-1474-4e36-84f3-3be77a357922: Ferries # Ferries
+    ec7bfd93-51de-41c6-819d-1c00dc1fe324: Bridge # Bridge
+    f1d100da-518c-4bee-ab4c-adfc1004b5cb: Title # Title
+    f9f18bdf-ad03-4e5b-92b2-04d5f7732fa9: Options # Options
+    f17e1f13-ef9e-49f5-a020-4ee7542badf0: 'Left bank' # Left bank
+    f5708777-6532-46cb-9fae-d086f907b2f1: 'Right Bank' # Right Bank
+plugins:
+  cookies:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  cp-field-inspect:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.4.0
+  field-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  google-maps:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.0.0
+    settings:
+      browserKey: AIzaSyDiW1eVWMD1HwBlFMd5_4zXU79xino5dAo
+      enableJsLogging: true
+      fieldControlSize: 27
+      geolocationService: ''
+      ipstackApiAccessKey: ''
+      maxmindLicenseKey: ''
+      maxmindService: ''
+      maxmindUserId: ''
+      serverKey: AIzaSyCCgzoXoEucSJVaVUeKGIKN18TVHi432JU
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.2.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.2.1
+system:
+  edition: solo
+  live: true
+  name: 'Bridges London'
+  retryDuration: null
+  schemaVersion: 3.7.8
+  timeZone: Europe/Brussels
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

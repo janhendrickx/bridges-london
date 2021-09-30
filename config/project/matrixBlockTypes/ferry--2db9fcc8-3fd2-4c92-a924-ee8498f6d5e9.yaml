@@ -1,0 +1,89 @@
+field: cec82e84-d9ef-4d77-b565-518cceef6bf2 # Services
+fieldLayouts:
+  5fca72a1-b15e-45d1-92ae-d8d9f6160bbd:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 33c23a52-9f09-4bc9-9eb2-ce377b5f0f2b # Left Bank
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: f5708777-6532-46cb-9fae-d086f907b2f1 # Right Bank
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: 4cf9ded3-3874-43f3-bd7c-4de43ff1a737 # Extra information
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  4cf9ded3-3874-43f3-bd7c-4de43ff1a737: # Extra information
+    columnSuffix: mgseimqh
+    contentColumnType: text
+    fieldGroup: null
+    handle: extraInformation
+    instructions: ''
+    name: 'Extra information'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  33c23a52-9f09-4bc9-9eb2-ce377b5f0f2b: # Left Bank
+    columnSuffix: obchqauw
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: leftBank
+    instructions: ''
+    name: 'Left Bank'
+    searchable: false
+    settings:
+      default: false
+      offLabel: Inactive
+      onLabel: Active
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  f5708777-6532-46cb-9fae-d086f907b2f1: # Right Bank
+    columnSuffix: aceywiuz
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: rightBank
+    instructions: ''
+    name: 'Right Bank'
+    searchable: false
+    settings:
+      default: false
+      offLabel: Inactive
+      onLabel: Active
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+handle: ferry
+name: Ferry
+sortOrder: 3

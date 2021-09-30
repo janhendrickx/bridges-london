@@ -1,0 +1,89 @@
+field: e2623858-1474-4e36-84f3-3be77a357922 # Ferries
+fieldLayouts:
+  aeb2b4cb-fd87-49ca-8e61-b947432d1c27:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 67e08fad-b132-4713-a365-c9f06f79b5f1 # Left bank
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: d9f24cec-d58c-4162-9a06-b0eb6d3196bc # Right bank
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: dbff6bce-61fa-4ef1-bab8-3bd6bf8360dd # Additional Information
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  67e08fad-b132-4713-a365-c9f06f79b5f1: # Left bank
+    columnSuffix: null
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: leftBank
+    instructions: ''
+    name: 'Left bank'
+    searchable: false
+    settings:
+      default: true
+      offLabel: Inactive
+      onLabel: Active
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  d9f24cec-d58c-4162-9a06-b0eb6d3196bc: # Right bank
+    columnSuffix: null
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: rightBank
+    instructions: ''
+    name: 'Right bank'
+    searchable: false
+    settings:
+      default: true
+      offLabel: Inactive
+      onLabel: Active
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  dbff6bce-61fa-4ef1-bab8-3bd6bf8360dd: # Additional Information
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: additionalInformation
+    instructions: ''
+    name: 'Additional Information'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '2'
+      multiline: '1'
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: information
+name: Information
+sortOrder: 1
