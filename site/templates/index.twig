@@ -2,9 +2,14 @@
 
 {% block content %}
     <main role="main">
-      <div class="container-fluid">
-            {% include '_includes/_sidebar' %}
-            {% include '_includes/_map' %}
+        <div class="container-fluid position-relative">
+            <div class="d-flex overflow-hidden">
+                {% include '_includes/_sidebar' %}
+                {% if entry.section.handle == 'blog' %}
+                    {% include '_includes/_blog-detail' %}
+                {% endif %}
+                {% include '_includes/_map' %}
+            </div>
         </div>
     </main>
 {% endblock %}

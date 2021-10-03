@@ -7240,11 +7240,57 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+.c-blog {
+  position: relative;
+  z-index: 100; }
+
+.c-blog-detail {
+  margin-left: -1000px;
+  width: 100%;
+  background-color: #2C3035;
+  height: 100%;
+  z-index: 1; }
+
+.c-blog-detail_close {
+  position: absolute;
+  font-family: 'Flanders Art Sans';
+  right: 30px;
+  top: 15px; }
+
+.c-blog-detail-content {
+  height: auto; }
+
+.c-blog-detail_image {
+  width: 100%;
+  height: 30vh;
+  background-size: cover; }
+
+.c-blog-detail-content_text {
+  padding-right: 40px; }
+  .c-blog-detail-content_text p {
+    text-align: justify; }
+
 .c-header-logo {
   height: 75px; }
   @media (max-width: 991.98px) {
     .c-header-logo {
       height: 125px; } }
+
+.c-map {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.gm-map {
+  height: 100vh; }
+
+.c-sidebar {
+  position: relative;
+  z-index: 2;
+  background-color: #2C3035; }
 
 .c-sidebar-content_item {
   background-image: url("../../source/img/chevron-right.svg");
@@ -7265,16 +7311,3 @@ a.text-dark:hover, a.text-dark:focus {
   width: 80%;
   height: 1px;
   margin: 0 auto; }
-
-.c-blogDetail-content {
-  height: 100vh; }
-
-.c-blogDetail_image {
-  width: 100%;
-  height: 30vh;
-  background-size: cover; }
-
-.c-blogDetail-content_text {
-  padding-right: 40px; }
-  .c-blogDetail-content_text p {
-    text-align: justify; }

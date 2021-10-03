@@ -1,6 +1,4 @@
-{% set entries = craft.entries.section('connections').type('bridge').all() %}
-
-{% set styleSet = [
+[
     {
         "featureType": "all",
         "elementType": "labels.text.fill",
@@ -68,6 +66,99 @@
         ]
     },
     {
+        "featureType": "administrative",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.country",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.country",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.country",
+        "elementType": "labels.text",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.province",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.locality",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            },
+            {
+                "saturation": "-100"
+            },
+            {
+                "lightness": "30"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.neighborhood",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.land_parcel",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            },
+            {
+                "gamma": "0.00"
+            },
+            {
+                "lightness": "74"
+            }
+        ]
+    },
+    {
         "featureType": "landscape",
         "elementType": "geometry",
         "stylers": [
@@ -80,6 +171,24 @@
         ]
     },
     {
+        "featureType": "landscape.man_made",
+        "elementType": "all",
+        "stylers": [
+            {
+                "lightness": "3"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
         "featureType": "poi",
         "elementType": "geometry",
         "stylers": [
@@ -88,6 +197,15 @@
             },
             {
                 "lightness": 21
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "visibility": "simplified"
             }
         ]
     },
@@ -159,30 +277,11 @@
         "elementType": "geometry",
         "stylers": [
             {
-                "color": "#2c3035"
+                "color": "#000000"
             },
             {
                 "lightness": 17
             }
         ]
     }
-] %}
-
-{# {% set options = {
-    'infoWindowTemplate': '_includes/_bridge-details'
-} %} #}
-
-
-{% set map = googleMaps.map(entries, {
-    'styles': styleSet,
-    'zoom': 16,
-    'icon': './source/img/logo.svg',
-    'infoWindowTemplate': '_includes/_bridge-details'
-}) %}
-
-
-
-<div class="c-map col-12">
-    {{ map.tag() }}
-    {# {{ googleMaps.map(entries).tag() }} #}
-</div>
+]

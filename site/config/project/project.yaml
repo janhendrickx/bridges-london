@@ -1,4 +1,4 @@
-dateModified: 1633027291
+dateModified: 1633091299
 email:
   fromEmail: admin@janhendrickx.be
   fromName: 'Bridges London'
@@ -20,11 +20,13 @@ meta:
     42caaaa6-e9ff-46fc-a188-5b9a88df9d58: Accessibility # Accessibility
     53be19a3-0972-40d4-8f64-2c6cd5b139f5: Content # Content
     54f8f573-5cd2-4c63-9a98-473878c2f99d: Text # Text
+    56a58c17-96b4-4c4b-ac64-e55ae5735961: Home # Home
     61b16cde-aea5-4b40-9fd4-4fe6b9227da1: Location # Location
     62b73e85-31c6-4f52-9e2d-6e51346635c8: Text # Text
     62d1cb7e-7a46-4570-8f7c-0c132f9afa7a: 'Bridges London' # Bridges London
     67e08fad-b132-4713-a365-c9f06f79b5f1: 'Left bank' # Left bank
     69e82117-3d5a-4d08-be80-5e5f184f2c00: Information # Information
+    77fd283b-5c90-4c0f-8896-6278bf0250de: Home # Home
     84a517dc-fcd6-46cf-8826-4bacac438bfc: Blogpage # Blogpage
     86e531bf-3ea9-4370-9ae0-989db778da84: Content # Content
     155a65b4-98e1-4ebd-891f-a9465213eeb5: 'Title with text and an image' # Title with text and an image
@@ -35,7 +37,7 @@ meta:
     1225c3a8-e41b-41be-b1bb-63fa42728169: 'Right Bank' # Right Bank
     3589c02c-6960-4e7e-a3bd-30eac2c636e0: Images # Images
     4094d26c-396e-452f-9498-622ad7e06e41: 'General Information' # General Information
-    5064ed44-7edf-49fc-8343-20b7129d01ab: Connection # Connection
+    5064ed44-7edf-49fc-8343-20b7129d01ab: Connections # Connections
     5941ab67-80c1-4238-b397-6576f01e70bd: Post # Post
     9626d010-a6cf-412c-9288-e128e7167564: 'Bridges London' # Bridges London
     573568d2-30b6-4b66-bf18-5c26487a90ce: Information # Information

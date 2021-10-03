@@ -1,5 +1,5 @@
 fieldLayouts:
-  639fe539-428d-4312-8f3a-578b77730343:
+  ea33263b-954e-488b-a495-46f23a795b28:
     tabs:
       -
         elements:
@@ -26,31 +26,13 @@ fieldLayouts:
             type: craft\fieldlayoutelements\EntryTitleField
             warning: null
             width: 100
-          -
-            fieldUid: 61b16cde-aea5-4b40-9fd4-4fe6b9227da1 # Location
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: cec82e84-d9ef-4d77-b565-518cceef6bf2 # Services
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
         name: Content
         sortOrder: 1
-handle: bridge
-hasTitleField: true
-name: Bridge
-section: 5064ed44-7edf-49fc-8343-20b7129d01ab # Connections
+handle: home
+hasTitleField: false
+name: Home
+section: 56a58c17-96b4-4c4b-ac64-e55ae5735961 # Home
 sortOrder: 1
-titleFormat: null
+titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

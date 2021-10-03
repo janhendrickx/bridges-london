@@ -50,7 +50,7 @@ settings:
   placeholderKey: null
   propagationMethod: all
   selectionLabel: ''
-  staticField: '1'
+  staticField: ''
 translationKeyFormat: null
 translationMethod: site
 type: verbb\supertable\fields\SuperTableField

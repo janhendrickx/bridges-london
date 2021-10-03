@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
-handle: connection
-name: Connection
+handle: connections
+name: Connections
 propagationMethod: all
 siteSettings:
   9626d010-a6cf-412c-9288-e128e7167564: # Bridges London

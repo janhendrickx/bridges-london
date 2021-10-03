@@ -1,7 +1,10 @@
 {% set img = entry.image.one() %}
-<div class="c-blogDetail col-12 col-lg-5">
-        <div class="c-blogDetail_image" style="background-image: url('{% if img %}{{ img.url }}{% endif %}')"></div>
-        <div class="c-blogDetail-content mx-5 pt-3">
+<div class="c-blog-detail col-12 col-lg-5">
+    <div class="c-blog-detail_close">
+        <a href="#" id="close">X</a>
+    </div>
+    <div class="c-blog-detail_image" style="background-image: url('{% if img %}{{ img.url }}{% endif %}')"></div>
+        <div class="c-blog-detail-content mx-5 pt-3">
             <h3 class="text-primary">{{ entry.title }}</h3>
             <p class="mb-2">{{ entry.postDate|date("D d/m/Y - H:i") }}</p>
             <span class="text-lighter mb-2">Last updated on {{ entry.dateUpdated|date("D d/m/Y - H:i") }}</p>

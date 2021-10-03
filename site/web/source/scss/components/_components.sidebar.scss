@@ -1,3 +1,9 @@
+.c-sidebar {
+    position: relative;
+    z-index: 2;
+    background-color: $dark;
+}
+
 .c-sidebar-content_item {
     background-image: url("../../source/img/chevron-right.svg");
     background-size: 30px;

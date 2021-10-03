@@ -1,0 +1,9 @@
+<div class="c-bridge-details">
+       
+    {% for service in entry.services.escalators.all() %}
+        {{ service.leftBank }}
+        {{ service.rightBank }}
+    {% endfor %}
+
+    {{ entry.title }}
+</div>
