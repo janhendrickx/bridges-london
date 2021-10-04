@@ -7,11 +7,14 @@
 // import bootstrap
 @import 'node_modules/bootstrap/scss/bootstrap';
 
+//icons
+@import 'components/components.icons';
 
 // custom
 @import 'components/components.blog';
 @import 'components/components.blog-detail';
 @import 'components/components.bridge-details';
+@import 'components/components.bridges-list';
 @import 'components/components.header';
 @import 'components/components.home';
 @import 'components/components.map';

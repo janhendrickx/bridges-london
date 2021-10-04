@@ -5,6 +5,15 @@ fieldLayouts:
       -
         elements:
           -
+            fieldUid: 54998b53-b836-41c2-af34-c64eaa7d7f98 # Show ferry information
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
             fieldUid: 67e08fad-b132-4713-a365-c9f06f79b5f1 # Left bank
             instructions: null
             label: null
@@ -18,15 +27,6 @@ fieldLayouts:
             instructions: null
             label: null
             required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: dbff6bce-61fa-4ef1-bab8-3bd6bf8360dd # Additional Information
-            instructions: null
-            label: null
-            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -49,6 +49,21 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Lightswitch
+  54998b53-b836-41c2-af34-c64eaa7d7f98: # Show ferry information
+    columnSuffix: null
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: showFerryInformation
+    instructions: ''
+    name: 'Show ferry information'
+    searchable: false
+    settings:
+      default: true
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
   d9f24cec-d58c-4162-9a06-b0eb6d3196bc: # Right bank
     columnSuffix: null
     contentColumnType: boolean
@@ -64,26 +79,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Lightswitch
-  dbff6bce-61fa-4ef1-bab8-3bd6bf8360dd: # Additional Information
-    columnSuffix: null
-    contentColumnType: text
-    fieldGroup: null
-    handle: additionalInformation
-    instructions: ''
-    name: 'Additional Information'
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: ''
-      columnType: null
-      initialRows: '2'
-      multiline: '1'
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
 handle: information
 name: Information
 sortOrder: 1

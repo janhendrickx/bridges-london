@@ -1,9 +1,18 @@
-field: 4094d26c-396e-452f-9498-622ad7e06e41 # General Information
+field: 4094d26c-396e-452f-9498-622ad7e06e41 # Information
 fieldLayouts:
   87833fa7-82df-4e3c-9490-a420c227a27a:
     tabs:
       -
         elements:
+          -
+            fieldUid: a9ca414e-5a37-4994-881f-572bfd878e8e # Icon
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
             fieldUid: e27701cd-9def-44b5-8fb6-5b6bea29fd7c # Title
             instructions: null
@@ -17,7 +26,7 @@ fieldLayouts:
             fieldUid: 80973392-7701-4ef4-8cea-1a03aeecbbff # Text
             instructions: null
             label: null
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -39,12 +48,47 @@ fields:
       code: ''
       columnType: null
       initialRows: '4'
-      multiline: ''
+      multiline: '1'
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
+  a9ca414e-5a37-4994-881f-572bfd878e8e: # Icon
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: icon
+    instructions: ''
+    name: Icon
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Information
+            -
+              - value
+              - info
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Warning
+            -
+              - value
+              - warning
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
   e27701cd-9def-44b5-8fb6-5b6bea29fd7c: # Title
     columnSuffix: null
     contentColumnType: text

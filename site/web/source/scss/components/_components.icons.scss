@@ -1,0 +1,68 @@
+.c-icon {
+    display:inline-block;
+    height: 25px;
+    width: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-right: 10px;
+}
+
+.c-icon--sm {
+    height: 20px;
+    width: 20px;
+}
+
+.c-icon--lg {
+    height: 30px;
+    width: 40px;
+}
+
+.c-icon--boat {
+    background-image: url("../../source/icons/boat.png");
+}
+
+.c-icon--bike {
+    background-image: url("../../source/icons/bike.svg");
+}
+
+.c-icon--cargobike {
+    background-image: url("../../source/icons/cargobike.svg");
+}
+
+.c-icon--escalator {
+    background-image: url("../../source/icons/stairs.svg");
+}
+
+.c-icon--escalator_white {
+    background-image: url("../../source/icons/stairs-white.svg");
+}
+
+.c-icon--foot {
+    background-image: url("../../source/icons/foot.svg");
+}
+
+.c-icon--info {
+    background-image: url("../../source/icons/icon_info.svg");
+}
+
+.c-icon--lift {
+    background-image: url("../../source/icons/lift.svg");
+}
+
+.c-icon--lift_white {
+    background-image: url("../../source/icons/lift-white.svg");
+}
+
+.c-icon--moped {
+    background-image: url("../../source/icons/moped.svg");
+}
+
+.c-icon--warning {
+    background-image: url("../../source/icons/icon_warning.png");
+}
+
+.c-icon--wheelchair {
+    background-image: url("../../source/icons/wheelchair.svg");
+}
+

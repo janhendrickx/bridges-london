@@ -1,10 +1,12 @@
 // Font Colors
 $primary: #60E8FF;
 $primary-darker: darken($primary, 10%);
-$secondary: #fff;
+$secondary: #DA6B2F;
 $dark: #2C3035;
 $light: #f7f7f7;
 $text: $light;
+$active: #7CEC81;
+$inactive: $secondary; 
 
 // body background color
 $body-bg: $dark;

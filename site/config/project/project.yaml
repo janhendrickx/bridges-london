@@ -1,10 +1,11 @@
-dateModified: 1633091299
+dateModified: 1633365335
 email:
   fromEmail: admin@janhendrickx.be
   fromName: 'Bridges London'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    2c42f99e-b681-44cf-9cc5-32be2786de57: 'Show lift information' # Show lift information
     2db9fcc8-3fd2-4c92-a924-ee8498f6d5e9: Ferry # Ferry
     4cf9ded3-3874-43f3-bd7c-4de43ff1a737: 'Extra information' # Extra information
     5e682297-3369-4a6b-9037-db55250e2d10: 'Left bank' # Left bank
@@ -35,11 +36,13 @@ meta:
     739bd0da-7752-4219-b992-504932cac84f: 'Left Bank' # Left Bank
     0861f78b-404f-4c73-8010-72eaa0a0469b: Text # Text
     1225c3a8-e41b-41be-b1bb-63fa42728169: 'Right Bank' # Right Bank
+    1657abdf-70f1-4826-9ff9-ab2668467dbc: 'Show escalator information' # Show escalator information
     3589c02c-6960-4e7e-a3bd-30eac2c636e0: Images # Images
-    4094d26c-396e-452f-9498-622ad7e06e41: 'General Information' # General Information
+    4094d26c-396e-452f-9498-622ad7e06e41: Information # Information
     5064ed44-7edf-49fc-8343-20b7129d01ab: Connections # Connections
     5941ab67-80c1-4238-b397-6576f01e70bd: Post # Post
     9626d010-a6cf-412c-9288-e128e7167564: 'Bridges London' # Bridges London
+    54998b53-b836-41c2-af34-c64eaa7d7f98: 'Show ferry information' # Show ferry information
     573568d2-30b6-4b66-bf18-5c26487a90ce: Information # Information
     612179a4-61a7-431d-ba6e-41413c43ca54: Content # Content
     891273c2-3696-4fa0-847f-9eb168a7fcbe: Information # Information
@@ -47,6 +50,7 @@ meta:
     18748439-580f-4779-be1c-3ea413f977e5: 'Right bank' # Right bank
     80973392-7701-4ef4-8cea-1a03aeecbbff: Text # Text
     a7f51468-9266-4f24-890f-1992c5685c35: Common # Common
+    a9ca414e-5a37-4994-881f-572bfd878e8e: Icon # Icon
     a33bef85-1ee8-42a8-9813-b5e5970e49b4: Lifts # Lifts
     ab18b013-5a45-421a-bab7-a5db29359b3e: Lifts # Lifts
     ab210e0b-87ac-4384-8bc8-2a8c9bd6381e: Title # Title

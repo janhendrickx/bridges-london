@@ -5,7 +5,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 8fb03fb1-183a-4b68-9573-f7693efba43c # Escalators
+            fieldUid: a33bef85-1ee8-42a8-9813-b5e5970e49b4 # Lifts
             instructions: null
             label: null
             required: false
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: a33bef85-1ee8-42a8-9813-b5e5970e49b4 # Lifts
+            fieldUid: 8fb03fb1-183a-4b68-9573-f7693efba43c # Escalators
             instructions: null
             label: null
             required: false
@@ -32,7 +32,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 4094d26c-396e-452f-9498-622ad7e06e41 # General Information
+            fieldUid: 4094d26c-396e-452f-9498-622ad7e06e41 # Information
             instructions: null
             label: null
             required: false
@@ -73,7 +73,7 @@ fields:
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: accessibiltiy
+    handle: accessibility
     instructions: ''
     name: Accessibiltiy
     searchable: false
@@ -120,7 +120,7 @@ fields:
               - 'By cargo bike'
             -
               - value
-              - cargoBike
+              - cargobike
             -
               - default
               - ''
@@ -138,17 +138,17 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Checkboxes
-  4094d26c-396e-452f-9498-622ad7e06e41: # General Information
+  4094d26c-396e-452f-9498-622ad7e06e41: # Information
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: generalInformation
+    handle: information
     instructions: ''
-    name: 'General Information'
+    name: Information
     searchable: false
     settings:
-      contentTable: '{{%matrixcontent_generalinformation}}'
-      maxBlocks: '1'
+      contentTable: '{{%matrixcontent_information}}'
+      maxBlocks: ''
       minBlocks: '0'
       propagationKeyFormat: null
       propagationMethod: all

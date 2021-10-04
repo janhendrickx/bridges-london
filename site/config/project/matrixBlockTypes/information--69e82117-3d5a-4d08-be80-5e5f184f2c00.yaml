@@ -5,6 +5,15 @@ fieldLayouts:
       -
         elements:
           -
+            fieldUid: 1657abdf-70f1-4826-9ff9-ab2668467dbc # Show escalator information
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
             fieldUid: 5e682297-3369-4a6b-9037-db55250e2d10 # Left bank
             instructions: null
             label: null
@@ -18,15 +27,6 @@ fieldLayouts:
             instructions: null
             label: null
             required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 6bccb4b8-29ac-458e-97d6-466b734401d4 # Additional Information
-            instructions: null
-            label: null
-            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
@@ -49,26 +49,21 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Lightswitch
-  6bccb4b8-29ac-458e-97d6-466b734401d4: # Additional Information
+  1657abdf-70f1-4826-9ff9-ab2668467dbc: # Show escalator information
     columnSuffix: null
-    contentColumnType: text
+    contentColumnType: boolean
     fieldGroup: null
-    handle: additionalInformation
+    handle: showEscalatorInformation
     instructions: ''
-    name: 'Additional Information'
+    name: 'Show escalator information'
     searchable: false
     settings:
-      byteLimit: null
-      charLimit: null
-      code: ''
-      columnType: null
-      initialRows: '2'
-      multiline: '1'
-      placeholder: null
-      uiMode: normal
+      default: true
+      offLabel: null
+      onLabel: null
     translationKeyFormat: null
     translationMethod: none
-    type: craft\fields\PlainText
+    type: craft\fields\Lightswitch
   18748439-580f-4779-be1c-3ea413f977e5: # Right bank
     columnSuffix: null
     contentColumnType: boolean

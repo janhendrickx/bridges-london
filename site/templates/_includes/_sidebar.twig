@@ -1,4 +1,4 @@
-{% set items = craft.entries.section('blog').limit('4') %}
+{% set items = craft.entries.section('blog').limit('4').all() %}
 
 <div class="c-sidebar col-12 col-lg-4 py-2 py-lg-4">
     <div class="c-sidebar-content">

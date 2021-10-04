@@ -9,14 +9,14 @@ settings:
   columns:
     __assoc__:
       -
-        - 8fb03fb1-183a-4b68-9573-f7693efba43c # Escalators
+        - a33bef85-1ee8-42a8-9813-b5e5970e49b4 # Lifts
         -
           __assoc__:
             -
               - width
               - ''
       -
-        - a33bef85-1ee8-42a8-9813-b5e5970e49b4 # Lifts
+        - 8fb03fb1-183a-4b68-9573-f7693efba43c # Escalators
         -
           __assoc__:
             -
@@ -30,7 +30,7 @@ settings:
               - width
               - ''
       -
-        - 4094d26c-396e-452f-9498-622ad7e06e41 # General Information
+        - 4094d26c-396e-452f-9498-622ad7e06e41 # Information
         -
           __assoc__:
             -
