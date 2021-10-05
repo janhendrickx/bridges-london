@@ -1,8 +1,17 @@
+{# Hack to show the first blog item when you widen your desktopscreen from mobile to desktop #}
+{% if entry.slug == 'blogpage' %}
+    {% set entry = craft.entries.section('blog').one() %}
+{% endif %}
+
 {% set img = entry.image.one() %}
+
 <div class="c-blog-detail col-12 col-lg-5">
+
     <div class="c-blog-detail_close">
-        <a href="#" id="close">X</a>
+        <a href="#" id="close" class="d-none d-lg-flex">X</a>
+        <a href="{{ craft.entries.section("blogpage").one().url }}" class="d-none d-sm-flex d-lg-none">{{ "back" | t }}</a>
     </div>
+
     <div class="c-blog-detail_image" style="background-image: url('{% if img %}{{ img.url }}{% endif %}')"></div>
         <div class="c-blog-detail-content mx-5 pt-3">
             <h3 class="text-primary">{{ entry.title }}</h3>

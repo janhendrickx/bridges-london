@@ -169,21 +169,14 @@
 
 ] %}
 
-{# {% set options = {
-    'infoWindowTemplate': '_includes/_bridge-details'
-} %} #}
-
-
 {% set map = googleMaps.map(entries, {
     'styles': styleSet,
     'zoom': 16,
     'icon': './source/img/logo.svg',
-    'infoWindowTemplate': '_includes/_bridge-details'
+    'infoWindowTemplate': '_blocks/_bridge-details'
 }) %}
-
 
 
 <div class="c-map col-12">
     {{ map.tag() }}
-    {# {{ googleMaps.map(entries).tag() }} #}
 </div>

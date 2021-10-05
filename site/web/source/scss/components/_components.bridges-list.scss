@@ -5,6 +5,16 @@
 }
 
 .c-bridges-list-item {
+    &.collapsed .accordion-icon {
+        transition: .3s;
+        transform: rotate(180deg);
+    }
+    .accordion-icon {
+        transition: .3s;
+    }
+}
+
+.c-bridges-list-item {
     border-radius: 5px;
     background-color: $dark;
     &:hover {

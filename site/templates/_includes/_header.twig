@@ -8,6 +8,9 @@
                     <h2 class="mb-0 text-white">{{ siteName | split(' ')[1] }}</h2>
                 </div>
             </a>
+            <a class="d-none d-sm-flex d-lg-none ml-auto" href="{{ craft.entries.section("blogpage").one().url }}" title={{ "News" | t }}>
+                <img class="c-header-link c-icon--small" src="../source/icons/blog.svg" alt="News">
+            </a>
         </div>
     </div>
 </div>

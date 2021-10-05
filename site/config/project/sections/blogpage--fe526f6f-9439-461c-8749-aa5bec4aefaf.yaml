@@ -7,6 +7,6 @@ siteSettings:
   9626d010-a6cf-412c-9288-e128e7167564: # Bridges London
     enabledByDefault: true
     hasUrls: true
-    template: blogpage
-    uriFormat: blogpage
+    template: blog
+    uriFormat: blog
 type: single

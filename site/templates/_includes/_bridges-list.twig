@@ -4,7 +4,7 @@
 
 
 <div class="c-bridges-list accordion col-12 col-lg-4 ml-auto">
-    <div class="accordion" id="accordionExample">
+    <div class="accordion">
         {% for bridge in entries %}
 
         {# Show warning icon when needed #}
@@ -36,7 +36,7 @@
         {% endfor %}
 
     
-            <div class="c-bridges-list-item my-2 p-4" data-toggle="collapse" data-target="#collapse{{ bridge.id }}" aria-expanded="true" aria-controls="collapse{{ bridge.id }}">
+            <div class="c-bridges-list-item my-2 p-4 collapsed" data-toggle="collapse" data-target="#collapse{{ bridge.id }}" aria-expanded="true" aria-controls="collapse{{ bridge.id }}">
                 <div class="c-bridges-accordion-header d-flex justify-content-between align-items-center">
                     <h4 class="text-secondary">
                         {{ bridge.title }}
@@ -53,18 +53,22 @@
                                 <div class="c-icon c-icon--info"></div>
                             {% endfor %}        
                         </div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="pl-6" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-                        </svg>
+
+                        <div class="accordion-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="pl-6" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </div>
+
                     </div>
                 </div>
 
-                <div id="collapse{{ bridge.id }}" class="collapse" aria-labelledby="heading{{ bridge.id }}" data-parent="#accordionExample">
+                <div id="collapse{{ bridge.id }}" class="collapse" aria-labelledby="heading{{ bridge.id }}">
                     <div class="c-bridges-list-item--detail">
 
                         <div class="c-bridges-list-item--services mt-2">
                             {% for service in bridge.services.lifts.all() if service.showLiftInformation %}
-                                <div class="c-bridges-list-item--service d-flex flew-row justify-content-between mb-2">
+                                <div class="c-bridges-list-item--service d-flex justify-content-between mb-2">
                                     <div class="c-bridges-list-item--name d-flex">
                                         <div class="c-icon c-icon--lift_white"></div>
                                         <span class="align-self-end">{{ "Liften" | t }}</span>
@@ -103,7 +107,7 @@
                                 <div class="c-bridges-list-item--info mt-4">
                                     <div class="d-flex flex-row">
                                         <div>
-                                            <div class="c-icon c-icon-sm c-icon--{{ information.icon.value }} align-self-start"></div>
+                                            <div class="c-icon c-icon--sm c-icon--{{ information.icon.value }} align-self-start"></div>
                                         </div>
                                         <div class="d-flex flex-column">
                                             <h5>{{  information.contentTitle }}</h5>
