@@ -48,7 +48,7 @@
                             {% endif %}
                             {# Show information icon when needed #}
                             {% set information = false %}
-                            {% for information in bridge.services.information.limit(1) %}
+                            {% for information in bridge.services.information.limit(1).all() %}
                                 {% set information = true %}
                                 <div class="c-icon c-icon--info"></div>
                             {% endfor %}        
